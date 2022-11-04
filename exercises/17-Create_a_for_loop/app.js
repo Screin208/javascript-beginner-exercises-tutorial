@@ -4,9 +4,9 @@
 function standardsMaker(){
 let text = "I will write questions if I'm stuck"
     for (let i = 0; i < 300; i++) {
-        text+ "<br>"
+        console.log(text)
       }
-return text
+
     };
     
-    console.log(standardsMaker())
+    standardsMaker()
